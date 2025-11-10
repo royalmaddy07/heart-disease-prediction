@@ -13,13 +13,7 @@ Multi-class classification problem that involves Predicting Heart Disease severi
 - Data cleaning and preprocessing
 - Models used: Supervised ML Models for Multiclass classification
   - (DT, KNN, Logistic Regression, Random Forest, Gradient Boosting, SVM)
-- Performance Metrics: Accuracy, Precision, Recall, F1-Score
-
-## 📈 Results
-- Baseline Accuracy to beat: 44.68%
-- Model Performing Model: Gradient Boosting
-- Train Accuracy: 62.81%
-- Test Accuracy: 62.50%
+- Performance Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 
 ## 🧰 Technologies used
 - Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
