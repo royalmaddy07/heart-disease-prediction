@@ -1,4 +1,4 @@
-# 🩺 Heart Disease Prediction using Machine Learning
+# 🩺 Predicting Heart Disease Severity Using Supervised ML algorithms
 
 ## Problem Statement
 Multi-class classification problem that involves Predicting Heart Disease severity from 0-4 using UCI's labeled dataset
