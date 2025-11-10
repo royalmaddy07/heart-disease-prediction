@@ -1,32 +1,25 @@
 # 🩺 Heart Disease Prediction using Machine Learning
 
-## 📌 Overview
-This project predicts the likelihood of heart disease using patient data.  
-It demonstrates data preprocessing, exploratory data analysis (EDA), and supervised ML models.
+## Problem Statement
+Multi-class classification problem that involves Predicting Heart Disease severity from 0-4 using UCI's labeled dataset
 
 ## 📊 Dataset
-- Source: UCI Machine Learning Repository  
-- Features: Age, Sex, Cholesterol, Thal, etc.  
-- Target: Heart disease severity (0–4)
-
-# Data Folder
-## 📂 raw/
-- `heart_disease_raw.csv`: Original UCI dataset.
-- `heart_disease_encoded.xlsx`: Encoded version with data dictionary.
-- `heart_disease_encoded.csv`: Encoded data exported from Excel.
-
-## 📂 processed/
-- `heart_disease_cleaned.csv`: Final dataset after preprocessing.
+- Source: UCI Machine Learning Repository taken from Kaggle
+- Total features: 13 (8 categorical features and 5 numeric features)
+- Target Variable: Heart disease severity (0–4)
 
 ## ⚙️ Methods Used
-- Data cleaning and preprocessing
 - EDA and visualization
-- Multiclass classification (Decision Tree, KNN, Logistic Regression)
+- Data cleaning and preprocessing
+- Models used: Supervised ML Models for Multiclass classification
+  - (DT, KNN, Logistic Regression, Random Forest, Gradient Boosting, SVM)
 - Performance Metrics: Accuracy, Precision, Recall, F1-Score
 
 ## 📈 Results
-- Best Model: NaN
-- Top Features: NaN
+- Baseline Accuracy to beat: 44.68%
+- Model Performing Model: Gradient Boosting
+- Train Accuracy: 62.81%
+- Test Accuracy: 62.50%
 
 ## 🧰 Technologies used
 - Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
