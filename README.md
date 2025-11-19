@@ -12,8 +12,11 @@ Multi-class classification problem that involves Predicting Heart Disease severi
 - EDA and visualization
 - Data cleaning and preprocessing
 - Models used: Supervised ML Models for Multiclass classification
-  - (DT, KNN, Logistic Regression, Random Forest, Gradient Boosting, SVM)
-- Performance Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+  - (DT, KNN, Logistic Regression, Random Forest, Gradient Boosting, Extreme Gradient Boosting, Naive Bayes)
+- Performance Metrics: Accuracy, Precision, Recall(Major), F1-Score, Confusion Matrix
+
+## Results
+- details about the best performing model is given in the report.
 
 ## 🧰 Technologies used
-- Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, joblib
